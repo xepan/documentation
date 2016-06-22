@@ -19,11 +19,11 @@ h6 {
     font-weight: 300;
     font-size: 18px;
 }
-
 body {
     line-height: 2;
     color: #444;
     background: #ededed;
+  	background-color: #ffffff;
 }
 
 img, iframe {
@@ -49,15 +49,16 @@ img {
 		
 .btn:hover {background:#333; }
 
-.btn-download { border-radius:0 4px 0 0; font-weight:bold; width: 25px;  overflow: hidden;}
+.btn-download { border-radius:0 4px 0 0; font-weight:bold; width:165px; overflow: hidden;}
 
 .btn-download  img {  width: 25px;
   float: left;
   margin-top: 18px;
-  margin-right: 15px
-  }
- 
-.btn-download:hover { width:165px;} 
+  margin-right: 15px	  
+} 
+.xepan-page-wrapper{margin-top:40px !important;}
+
+.btn-download:hover {background:#135571 !important; }
 
 iframe {
     border: 0 !important;
@@ -70,7 +71,6 @@ header {
 }
 
 .container {
-    width: 95%;
     max-width: 650px;
     position: relative;
 }
