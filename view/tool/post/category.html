@@ -1,0 +1,15 @@
+<div id="{$_name}" style="{$style}" class="{$class} row">
+    {rows}{row}
+      <h4>{$name}</h4>{post_wrapper}     
+      {cat_post}
+      {rows}{row}
+      <div><a href="?post_id={$post_id}">{title}{/}</a></div>
+      {/rows}{/row}
+	  {/cat_post}
+	  {/}    
+    {/}{/}
+    {not_found}
+    <div role="alert" class="full-width alert alert-warning"><strong class="glyphicon glyphicon-warning-sign">&nbsp;Warning!    <span>&nbsp;{$not_found_message}</span></strong></div>{/}
+    {paginator_wrapper}
+    <div style="float:none; clear:both" class="xshop-item-paginator">{$Paginator}</div>{/}            
+</div>
